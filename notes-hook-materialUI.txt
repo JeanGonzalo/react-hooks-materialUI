@@ -1,0 +1,25 @@
+npx create-react-app krowdy
+npm install -g create-react-app
+create-react-app awesome-project
+cd awesome-project/
+1903  npm start
+
+
+npm i react-router-dom
+npm i axios
+npm i redux
+npm i redux-saga ó
+npm install --save redux-saga
+
+npm i -S react-redux
+
+npm install @material-ui/core
+
+
+REDUX -> es un patron para el manejo de la informacion
+            cual es el estado de la aplicacion
+            como cambio la informacion
+            quien cambio laguna variable
+            como se encientra determinada una variable  
+documentacion de redux
+https://redux.js.org/introduction/getting-started

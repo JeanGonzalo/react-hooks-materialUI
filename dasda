@@ -1,0 +1,28 @@
+[1mdiff --git a/src/pages/Home/index.js b/src/pages/Home/index.js[m
+[1mindex c099cdc..2930242 100644[m
+[1m--- a/src/pages/Home/index.js[m
+[1m+++ b/src/pages/Home/index.js[m
+[36m@@ -1,9 +1,21 @@[m
+ //*Functional component*[m
+ import React from 'react';[m
+[31m-import { Container, Typography } from '@material-ui/core';[m
+[32m+[m[32mimport { Container, Typography, Card } from '@material-ui/core';[m
+ [m
+ export default () => {[m
+[31m-    return (<Container><Typography>Home</Typography></Container>)[m
+[32m+[m[32m    return ([m
+[32m+[m[32m        <Container>[m
+[32m+[m[32m            <Card>[m
+[32m+[m[32m                <Grid container>[m
+[32m+[m[32m                    <Grid>[m
+[32m+[m[32m                        <Typography>Bienvenido prro</Typography>[m
+[32m+[m[32m                    </Grid>[m
+[32m+[m[32m                    <Grid>[m
+[32m+[m[32m                        <label>Icono</label>[m
+[32m+[m[32m                    </Grid>[m
+[32m+[m[32m                </Grid>[m
+[32m+[m[32m            </Card>[m
+[32m+[m[32m        </Container>)[m
+ }[m
+ [m
+ [m

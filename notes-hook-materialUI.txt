@@ -23,3 +23,5 @@ REDUX -> es un patron para el manejo de la informacion
             como se encientra determinada una variable  
 documentacion de redux
 https://redux.js.org/introduction/getting-started
+
+icons -> https://material.io/resources/icons/?search=movie&icon=movie&style=baseline
